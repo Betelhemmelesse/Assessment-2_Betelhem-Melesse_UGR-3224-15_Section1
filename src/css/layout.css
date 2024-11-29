@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.grey{
+    background-color:rgb(48, 53, 48);
+}
+.head{
+    width: 70%;
+    margin-left: 250px;
+    margin-right: 440px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.slogan{
+    font-size: 10px;
+    padding-left: 200px;
+}
+.slogan p {
+    color: white;
+}
+.busi-name h1 {
+    color: #db7835;
+    font-size: 40px;
+}
+.white {
+    color: white;
+}
+.navigation{
+    width: 55%;
+    margin-top: 30px;
+}
+.nav{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+.nav li{
+    background-color: #73b40e;
+    border-radius: 3px;
+    padding: 5px 15px;
+    float: left;
+}
+.nav li:hover{
+    background-color: #db7835;
+}
+.nav li a{
+    color: white;
+    font-size: 13px;
+}
+.footer .footty{
+    width: 60%;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.above-footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    
+}
+.footer-imgs img{
+    margin: 5px;
+}
+.footer-imgs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 5px;
+    row-gap: 5px;
+}
+.imaggallary{
+    margin-right: 20px;
+}
+footer .footty h3 {
+    color: white;
+    font-size: 17px;
+}
+.about-img{
+    float: left;
+    margin-right: 20px;
+}
+.About p {
+    color: white;
+    font-size: 15px;
+    opacity: 0.8;
+}
+.About {
+    margin-right: 10px;
+}
+.green-link {
+    color: #73b40e;
+    text-decoration: underline;
+}
+.Contact , p , ul li {
+    color: white;
+    font-size: 15px;
+    opacity: 0.9;
+}
+.containers {
+    margin-top: 15px;
+}
+.about-con{
+    margin-top: 20px;
+}
+.contact-con {
+    margin-top: 20px ;
+}
+.Contact p {
+    color: white;
+}
+.Contact ul li{
+    list-style: none;
+}
+.con-bold {
+    font-weight: bold;
+}
+.black {
+    background-color: #222222;
+}
+.footer-nav {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}.black .footty {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.footer-nav li a{
+    color: white;
+}
+.footer-nav li .unique{
+    color: #73b40e;
+}
+.center{
+    margin-bottom:10px ;
+}
+h2{
+    color: #73b40e;
+}
+p{
+    color: black;
+}
+.bold{
+    font-weight: bold;
+}
+.main-area{
+    width: 65%;
+    margin-left: 250px;
+    margin-right:400px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.about-fine{
+    width: 85%;
+    margin-right: 20px;
+}
+.mission{
+    width: 85%;
+    margin-right: 20px;
+
+}
+.menu-list li{
+    color: black;
+    list-style: none;
+}
+.spo h4{
+    opacity: 0.7;
+    font-size: 15px;
+}
+.main-contact{
+    width: 65%;
+    margin-left: 250px;
+    margin-right:400px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;  
+}
+.contact-mail{
+    width: 85%;
+    margin-right: 10px;
+}
+.connn{
+    margin-bottom: 20px;
+}
+form ul li label {
+    color: black;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+label {
+    margin-bottom: 4px;
+}
+textarea, .text {
+    width: 400px; /* Adjust the width as needed */
+}
+.text{
+    height: 20px;
+}
